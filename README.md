@@ -31,11 +31,16 @@ The mondayIndex is the day of week position of Monday.  To start the calendar we
 #####formatValue: 
 The following characters have value for date formating
 > d – prints the day of month
-D – Prints the first three letters of the day of week (i.e. Mon)
-m – Prints the month number (i.e. 1)
-M – Prints the name of the month (i.e. January)
-y – Prints the 2 digit year
-Y – Prints the 4 digit year <
+
+> D – Prints the first three letters of the day of week (i.e. Mon)
+
+> m – Prints the month number (i.e. 1)
+
+> M – Prints the name of the month (i.e. January)
+
+> y – Prints the 2 digit year
+ 
+> Y – Prints the 4 digit year
 
 All other characters pass through.
 
