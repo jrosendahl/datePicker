@@ -1,0 +1,92 @@
+.datePickerElement-calendarContainer {
+	background-color:#E9F7F1;
+	border-color:#08673E;
+	border-style:solid;
+	border-width:1px;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 2px #000000;
+	-webkit-box-shadow: 1px 1px 2px #000000;
+	box-shadow: 1px 1px 2px #000000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color='#000000')";
+	list-style-type: none;
+	margin:0px;
+	padding:3px;
+	z-index:100;
+	position:absolute;
+}
+.datePickerElement-calendarHeader {
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	color:#08673E;
+	border-bottom-color: #189F65;
+	border-bottom-width: 1px;
+	border-bottom-style:solid;
+	padding-top: 4px;
+	padding-bottom:2px;
+	margin-bottom:3px;
+
+}
+.datePickerElement-calendarNavigationContainer {
+	margin-bottom:3px;
+	padding-bottom:2px;
+	border-bottom-color: #189F65;
+	border-bottom-width: 1px;
+	border-bottom-style:solid;
+}
+
+.datePickerElement-calendar-previousMonth{
+	display:inline-block;
+	width:35%;
+	text-align:center;
+}
+
+
+.datePickerElement-dayOfWeekLabel {
+	padding:3px;
+	padding-bottom:0px;
+	text-align:center;
+	font-weight:bold;
+	color:#189F65;
+}
+
+.datePickerElement-calendar-nextMonth{
+	display:inline-block;
+	float:right;
+	width:35%;
+	text-align:center;
+}
+
+.datePickerElement-dayOfMonth {
+	border-color:#08673E;
+	border-width:1px;
+	border-radius:2px;
+	border-style:solid;
+	padding:3px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.datePickerElement-dayOfMonth:hover {
+	background-color:#189F65;
+	color:#E9F7F1;
+}
+
+
+.datePickerElement-dayOfMonth-currentMonth {
+	background-color:#FFFFFF;
+}
+
+.datePickerElement-dayOfMonth-previousMonth {
+	color:#666666;
+}
+
+.datePickerElement-dayOfMonth-nextMonth {
+	color:#666666;
+}
+
+.datePickerElement-dayOfMonth-today {
+	background-color:#08673E;
+	color:#E9F7F1;
+}
